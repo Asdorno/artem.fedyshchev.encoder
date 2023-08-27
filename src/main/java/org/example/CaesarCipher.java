@@ -4,7 +4,7 @@ package org.example;
  * Hello world!
  *
  */
-public class Application
+public class CaesarCipher
 {
     public static void main( String[] args )
     {
