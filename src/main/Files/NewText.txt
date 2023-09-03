@@ -1,0 +1,6 @@
+Hello world!
+How is your day?
+Welcome to the club buddy
+Trying to make a long text
+I dont know how many lines do I need to brake my code
+How would I also make a brute force mode?

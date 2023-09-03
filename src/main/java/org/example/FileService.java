@@ -26,9 +26,8 @@ public class FileService extends FileNotFoundRuntimeException {
         return textFromFile;
     }
 
-    public void write(String fileName, List<String> lines) throws IOException {
-
-        try (FileWriter fw = new FileWriter(fileName, true);
+    public void write(String filePath, List<String> lines) throws IOException {
+        try (FileWriter fw = new FileWriter(filePath, true);
              BufferedWriter bw = new BufferedWriter(fw);
              PrintWriter out = new PrintWriter(bw)) {
             for (String line :
